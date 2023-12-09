@@ -39,7 +39,11 @@ if s:matchit_n_rhs =~# '<Plug>'
 endif
 
 
-let s:quotes = ['"', '''', '`', '|']
+" DEAR GOD I WANT TO ADD SUPPORT FOR triple backticks, quotes, and double
+" quotes, yknow like ``` and """ and ''', super common in markdown and python respectively!!!
+"
+
+let s:quotes = ['"', '''', '`', '|', '€']
 
 
 function! s:matchquote(mode)
